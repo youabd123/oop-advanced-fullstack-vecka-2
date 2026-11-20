@@ -37,6 +37,20 @@ för en uppgift som är tilldelad mig, så att jag hinner agera i tid.
 - AK-1.3 Givet att uppgiften har markerats som klar före
   påminnelsetidpunkten, när det återstår 24 timmar till deadline,
   så skickas ingen påminnelse.
+  ### US-02 – Korrekt förseningsstatus
+
+Som teammedlem vill jag att uppgifter får korrekt förseningsstatus,
+så att jag kan lita på listan och prioritera mitt arbete.
+
+- AK-2.1 Givet en oavslutad uppgift med förfallodatum idag,
+  när listan visas kl. 09.00 samma dag,
+  så visas uppgiften inte som försenad.
+- AK-2.2 Givet samma uppgift,
+  när listan visas kl. 23.59 samma dag,
+  så visas uppgiften inte som försenad.
+
+Öppen fråga till Sara
+Vilken tidszon ska styra förseningsstatusen?
 
 ## Ett use case med huvudflöde, alternativa flöden och undantag
 
