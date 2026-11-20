@@ -40,7 +40,24 @@ för en uppgift som är tilldelad mig, så att jag hinner agera i tid.
 
 ## Ett use case med huvudflöde, alternativa flöden och undantag
 
-Återstår att beskriva.
+### UC-01 – Få en påminnelse före deadline
+
+Förslag att bekräfta med Sara.
+
+Förutsättningar
+Uppgiften har en deadline och är tilldelad en person.
+
+Huvudflöde
+1. Det återstår 24 timmar till uppgiftens deadline.
+2. Systemet kontrollerar att uppgiften fortfarande är oavslutad.
+3. Systemet visar en notis i appen för personen som har uppgiften.
+
+Alternativt flöde
+- Uppgiften är redan klar. Ingen påminnelse skickas.
+
+Undantagsflöde
+- Påminnelsen kan inte levereras på grund av ett tekniskt fel.
+  Hur systemet ska hantera detta behöver fastställas med Sara.
 
 ## Icke-funktionella krav, med siffror
 
